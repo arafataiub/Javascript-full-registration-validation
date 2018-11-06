@@ -1,0 +1,105 @@
+<html>
+
+<head>
+	<title>Profile</title>
+
+	
+</head>
+
+<body>
+
+	
+       <form  action="submitted.html" method="post" onsubmit="return validation();">
+	
+		<table width="50%" border="1px" align="center">
+			<tr>
+				<td colspan="2" align="center">PERSON PROFILE</td>
+			</tr>
+			
+			<tr>
+				<td>Id</td>
+				<td><input type="text" name="id" id="id"></td>
+			
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input type="password" name="password" id="pass"></td>
+			
+			</tr>
+			<tr>
+				<td>Name</td>
+				<td><input type="text" name="name" id="name"></td>
+			
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td><input type="radio" name="gender" value="male" class="gender" >Male
+				<input type="radio" name="gender"  value="female" class="gender" >Female
+				<input type="radio" name="gender"  value="other" class="gender" >Other
+				</td>
+			
+			</tr>
+			
+			<tr>
+				<td>Degree</td>
+				<td><input type="checkbox" name="degree" class="degree" value="ssc" id="degree">SSC
+				<input type="checkbox" name="degree" class="degree" value="hsc" id="degree">HSC
+				<input type="checkbox" name="degree" class="degree" value="bsc" id="degree">Bsc
+				<input type="checkbox" name="degree" class="degree" value="msc" id="degree">Msc
+				
+				</td>
+			
+			</tr>
+			
+			<tr>
+				<td>Occupation</td>   
+
+				<td><select id="occupation">
+				<option value="student" selected>Student</option>
+				<option value="businessman" >Businessmen</option>
+				<option value="other" >other</option>
+				
+				
+				</select>
+				
+				
+				</td>
+			
+			</tr>
+			
+			<tr>
+				<td>Photo</td>
+				<td><input type="file" name="upload" value="Upload File" >
+				
+				</td>
+			
+			</tr>
+			
+			<tr>
+				
+			<td colspan="2" align="right" > <input type="submit" name="submit" value="Submit"></td>
+			
+			</tr>
+			
+			
+		
+		
+		</table>
+		<p id="div1"></p>
+	
+	</form>
+	
+	
+	
+	
+
+
+
+
+</body>
+<script type="text/javascript" src="validation.js"></script>
+
+
+
+
+</html>
